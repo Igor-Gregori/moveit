@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+
+  background: rgb(73, 83, 184);
+  background: linear-gradient(
+    180deg,
+    rgba(73, 83, 184, 1) 25%,
+    rgba(89, 101, 224, 1) 100%
+  );
+
+  color: white;
+}
+
+.divLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40%;
+  height: 50vh;
+
+  margin-right: 10rem;
+}
+
+.divLogo img {
+  width: 100%;
+}
+
+@media (max-width: 1080px) {
+  .divLogo {
+    display: none;
+  }
+
+  .divLogin {
+    margin-left: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.divLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin: 2rem;
+}
+
+.logoMoveit {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.logoMoveit img {
+  width: 100%;
+}
+
+.divInfo {
+  margin-top: 30%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.divInfo p:first-child {
+  font: 600 1rem "Inter", sans-serif;
+  font-size: 36px;
+}
+
+.divInfo button {
+  width: 100%;
+  height: 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  border: 0;
+  border-radius: 5px;
+
+  background: rgb(73, 83, 184);
+  background: linear-gradient(
+    90deg,
+    rgba(73, 83, 184, 1) 0%,
+    rgba(73, 83, 184, 0.2) 100%
+  );
+  color: var(--white);
+
+  font: 600 1rem "Inter", sans-serif;
+  font-size: 25px;
+
+  transition: background-color 0.2s;
+}
+
+.divInfo button:hover {
+  background-color: #b2b9ff;
+}
+
+.githubInfo {
+  margin: 10px 0px 60px 0px;
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.githubInfo p {
+  font: 500 1rem "Inter", sans-serif;
+  font-size: 20px;
+
+  margin-left: 20px;
+  color: #b2b9ff;
+}

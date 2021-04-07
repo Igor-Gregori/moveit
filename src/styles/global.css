@@ -44,9 +44,12 @@ button {
 
 button {
   cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  outline: none;
 }
 
 a {
   color: inherit;
-  text-decoration: non e;
+  text-decoration: none;
 }
