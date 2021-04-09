@@ -1,17 +1,21 @@
 import axios from 'axios';
+import Cookies from 'js-cookie';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { useState } from 'react';
 import { githubProvider } from '../configs/authenticationMethod';
 import socialMediaAuth from '../service/authentication';
 import styles from '../styles/pages/FistPage.module.css';
-import Cookies from 'js-cookie';
-import { useRouter } from 'next/router';
 
 
 export default function Home() {
   const router = useRouter();
+  const [isLoading, setIsLoading] = useState(false);
+
 
   const handleProviderLogin = async (provider) => {
-    
+    setIsLoading(true);
+
     const { email, displayName, photoURL } = await socialMediaAuth(provider);
 
     const user = await axios.post('/api/subscribe', { email, displayName, photoURL });
@@ -24,6 +28,8 @@ export default function Home() {
     Cookies.set('photoUrl', String(user.data.photoURL));
 
     router.push('/panel');
+    
+    setIsLoading(false);
   }
 
   return (
@@ -47,7 +53,11 @@ export default function Home() {
             <p>Faça login com seu Github para começar</p>
           </div>
           <br />
-          <button type="button" onClick={() => { handleProviderLogin(githubProvider) }}>Fazer login com github <img src="/icons/github.svg" /></button>
+          {isLoading ?
+            <button type="button"><img src="/loading.gif" /></button>
+            :
+            <button type="button" onClick={() => { handleProviderLogin(githubProvider) }}>Fazer login com github <img src="/icons/github.svg" /></button>
+          }
         </div>
       </div>
     </div>

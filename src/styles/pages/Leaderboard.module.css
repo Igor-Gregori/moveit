@@ -1,0 +1,185 @@
+.container {
+  height: 100vh;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.container h1 {
+  color: black;
+}
+
+.table {
+  width: 100%;
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.titleTable {
+  display: flex;
+  justify-content: flex-start;
+
+  color: #bdbdbd;
+  font: 700 1rem "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.thUser {
+  margin-left: 40px;
+}
+
+.divLine {
+  display: flex;
+  justify-content: flex-start;
+  justify-items: flex-start;
+
+  background-color: white;
+  margin-bottom: 5px;
+
+  height: 96px;
+
+  border-radius: 10px;
+}
+
+.tdPosition {
+  border-right: 5px solid #f2f3f5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  color: #666666;
+  font: 400 1rem "Inter", sans-serif;
+  font-size: 24px;
+}
+
+.tdUser {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.divUser {
+  margin-left: 1rem;
+
+  display: flex;
+  flex-direction: row;
+
+  width: 450px;
+}
+
+.userImage {
+  border-radius: 50%;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.userInfo h3 {
+  color: #2e384d;
+  font: 600 1rem "Inter", sans-serif;
+  font-size: 20px;
+
+  margin-bottom: 10px;
+}
+
+.divLevel {
+  display: flex;
+  flex-direction: row;
+}
+
+.userInfo p {
+  font: 400 1rem "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.thChallenges {
+  margin-left: 400px;
+}
+
+.tdChallenges {
+  margin-left: 15px;
+}
+
+.divChallenges {
+  height: 100%;
+  width: 150px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.divChallenges h4 {
+  color: #5965e0;
+  font: 500 1rem "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.divChallenges p {
+  font: 500 1rem "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.thExperience {
+  margin-left: 150px;
+}
+
+.tdExperience {
+  margin-left: 70px;
+}
+
+.divExperience {
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.divExperience h4 {
+  color: #5965e0;
+  font: 500 1rem "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.divExperience p {
+  font: 500 1rem "Inter", sans-serif;
+  font-size: 16px;
+}
+
+@media (max-width: 1080px) {
+  .thChallenges {
+    display: none;
+  }
+
+  .tdChallenges {
+    display: none;
+  }
+
+  .thExperience {
+    display: none;
+  }
+
+  .tdExperience {
+    display: none;
+  }
+}
