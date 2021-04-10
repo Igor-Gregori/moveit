@@ -13,6 +13,7 @@ import styles from "../styles/pages/Panel.module.css";
 interface PanelProps {
   level: number;
   currentExperience: number;
+  totalExperience: number;
   challengesCompleted: number;
   email: string;
   username: string;
@@ -25,6 +26,7 @@ export default function Panel(props: PanelProps) {
     <ChallengesProvider
       level={props.level}
       currentExperience={props.currentExperience}
+      totalExperience={props.totalExperience}
       challengesCompleted={props.challengesCompleted}
       email={props.email}
       username={props.username}
@@ -58,13 +60,22 @@ export default function Panel(props: PanelProps) {
 }
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
+  const { level, currentExperience, totalExperience, challengesCompleted, email, username, photoUrl } = ctx.req.cookies;
 
-  const { level, currentExperience, challengesCompleted, email, username, photoUrl } = ctx.req.cookies;
+  if (email === undefined) {
+    return {
+      redirect: {
+        permanent: false,
+        destination: "/"
+      }
+    }
+  }
 
   return {
     props: {
       level: Number(level),
       currentExperience: Number(currentExperience),
+      totalExperience: Number(totalExperience),
       challengesCompleted: Number(challengesCompleted),
       email,
       username,

@@ -65,7 +65,11 @@
   align-items: center;
 }
 
-.footer img {
+.footer svg {
   width: 50px;
   height: 50px;
+}
+
+.footer:hover svg path{
+  stroke: var(--red);
 }

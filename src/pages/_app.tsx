@@ -5,7 +5,6 @@ import '../styles/global.css';
 import '../styles/nprogress.css';
 
 Router.events.on('routeChangeStart', (url) => {
-  console.log(url);
   NProgress.start()
 })
 Router.events.on('routeChangeComplete', () => NProgress.done())

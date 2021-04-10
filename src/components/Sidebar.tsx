@@ -8,10 +8,12 @@ export function Sidebar() {
     function exitMoveIt() {
         Cookies.remove('level');
         Cookies.remove('currentExperience');
+        Cookies.remove('totalExperience');
         Cookies.remove('challengesCompleted');
         Cookies.remove('email');
         Cookies.remove('username');
         Cookies.remove('photoUrl');
+        
         router.push('/');
     }
 
@@ -45,7 +47,11 @@ export function Sidebar() {
 
             <div className={styles.footer}>
                 <button type="button" onClick={exitMoveIt}>
-                    <img src="/icons/logout.svg" alt="Sair" />
+                    <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.5 31.5L7.5 31.5C6.70435 31.5 5.94129 31.1839 5.37868 30.6213C4.81607 30.0587 4.5 29.2956 4.5 28.5L4.5 7.49999C4.5 6.70434 4.81607 5.94128 5.37868 5.37867C5.94129 4.81606 6.70435 4.49999 7.5 4.49999L13.5 4.49999" stroke="#5965E0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M21 10.5L13.5 18L21 25.5" stroke="#5965E0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="#teste" d="M13.5 18L31.5 18" stroke="#5965E0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
                 </button>
             </div>
         </div>

@@ -16,9 +16,10 @@ export default async (request: NowRequest, response: NowResponse) => {
         user = await collection.insertOne({
             email,
             username: displayName,
-            level: 0,
+            level: 1,
             challenges: 0,
             experience: 0,
+            totalExperience: 0,
             photoURL: photoURL,
             subscribedAt: new Date()
         });

@@ -1,5 +1,6 @@
 import axios from "axios";
 import { GetServerSideProps } from "next";
+import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/pages/Leaderboard.module.css";
 
@@ -8,8 +9,11 @@ export default function Leaderboard(props) {
 
     return (
         <div className={styles.container}>
-            <h1>Leaderboard</h1>
+            <Head>
+                <title>Leaderboard | move.it</title>
+            </Head>
 
+            <h1>Leaderboard</h1>
             <table className={styles.table}>
                 <tr className={styles.titleTable}>
                     <th>POSIÇÃO</th>
@@ -41,23 +45,30 @@ export default function Leaderboard(props) {
                             </td>
                             <td className={styles.tdExperience}>
                                 <div className={styles.divExperience}>
-                                    <h4>{pessoa.experience}</h4><p>&nbsp;xp</p>
+                                    <h4>{pessoa.totalExperience}</h4><p>&nbsp;xp</p>
                                 </div>
                             </td>
                         </div>
                     </tr>
                 ))}
-
-
             </table>
         </div>
     );
 }
 
-export const getServerSideProps: GetServerSideProps = async () => {
+export const getServerSideProps: GetServerSideProps = async (ctx) => {
+    const { email } = ctx.req.cookies;
+
+    if (email === undefined) {
+        return {
+            redirect: {
+                permanent: false,
+                destination: "/"
+            }
+        }
+    }
 
     const leaderboard = await axios.get(`${process.env.BASE_URL}/api/leaderboard`);
-
     const result = leaderboard.data;
 
     return { props: { result } }

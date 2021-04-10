@@ -16,19 +16,29 @@ export default function Home() {
   const handleProviderLogin = async (provider) => {
     setIsLoading(true);
 
-    const { email, displayName, photoURL } = await socialMediaAuth(provider);
+    let { email, displayName, photoURL } = await socialMediaAuth(provider);
+
+    if (email === undefined) {
+      alert('Erro ao autenticar sessão com github !');
+      return;
+    }
+
+    if (displayName === null) {
+      displayName = `Guest ${Math.floor((Math.random() * 10000))}`;
+    }
 
     const user = await axios.post('/api/subscribe', { email, displayName, photoURL });
 
     Cookies.set('level', String(user.data.level));
     Cookies.set('currentExperience', String(user.data.experience));
+    Cookies.set('totalExperience', String(user.data.totalExperience));
     Cookies.set('challengesCompleted', String(user.data.challenges));
     Cookies.set('email', String(user.data.email));
     Cookies.set('username', String(user.data.username));
     Cookies.set('photoUrl', String(user.data.photoURL));
 
     router.push('/panel');
-    
+
     setIsLoading(false);
   }
 
