@@ -18,7 +18,8 @@ export const CountdownContext = createContext({} as CountdownContextData);
 
 let countdownTimeout: NodeJS.Timeout;
 
-const timeCountdown = (0.2 * 60);
+//const timeCountdown = (0.1 * 60);
+const timeCountdown = (25 * 60);
 
 export function CountdownProvider({ children }: CountdownProviderProps) {
   const { startNewChallenge } = useContext(ChallengeContext);
