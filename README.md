@@ -31,8 +31,8 @@
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#clipboard-Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#man-Desenvolvedor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#closed_book">Licença</a>
+  <a href="#man-Desenvolvedor">Desenvolvedor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#closed_book-Licença">Licença</a>
 </p>
 
 <p align="center">  
@@ -126,6 +126,6 @@ Desenvolvido por <b>Igor Gregori</b> :metal::satisfied::+1: Entre em contato! :s
   <img alt="Linkedin" src="https://img.shields.io/badge/-Igor%20Gregori-0e76a8?label=Linkedin&logo=linkedin&style=flat-square" >
 </a>
 
-## :closed_book: Licença MIT
+## :closed_book: Licença
 
 This project is [MIT](https://github.com/Igor-Gregori/moveit/blob/main/LICENSE) licensed.
