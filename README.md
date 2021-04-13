@@ -32,19 +32,17 @@
   <a href="#clipboard-Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#man-Desenvolvedor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#closed_book-Licença MIT">Licença</a>
+  <a href="#closed_book">Licença</a>
 </p>
 
-<p align="center">
-  <div class="rounded-1">
-     <img alt="Login" src="./.github/images/pageLogin.png" width="720px" />
-  </div>
-  <img class="rounded-1" alt="Painel" src="./.github/images/pagePanel.png" width="357px" />
-  <img class="rounded-1" alt="Countdown" src="./.github/images/pagePanelCountDown.png" width="357px" />
-  <img class="rounded-1" alt="Challenge" src="./.github/images/pagePanelChallenge.png" width="357px" />
-  <img class="rounded-1" alt="With Experience" src="./.github/images/pagePanelWithExperience.png" width="357px" />
-  <img class="rounded-1" alt="Next Level" src="./.github/images/pagePanelNextLevel.png" width="357px" />
-  <img class="rounded-1" alt="Ranking" src="./.github/images/pagePanelLeaderBoard.png" width="357px" />
+<p align="center">  
+  <img alt="Login" src="./.github/images/pageLogin.png" width="720px" />
+  <img alt="Painel" src="./.github/images/pagePanel.png" width="357px" />
+  <img alt="Countdown" src="./.github/images/pagePanelCountDown.png" width="357px" />
+  <img alt="Challenge" src="./.github/images/pagePanelChallenge.png" width="357px" />
+  <img alt="With Experience" src="./.github/images/pagePanelWithExperience.png" width="357px" />
+  <img alt="Next Level" src="./.github/images/pagePanelNextLevel.png" width="357px" />
+  <img alt="Ranking" src="./.github/images/pagePanelLeaderBoard.png" width="357px" />
 </p>
 
 ## :page_facing_up: Descrição
@@ -66,7 +64,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 - [Firebase](https://firebase.google.com/docs?hl=pt-br)
 - [Axios](https://www.npmjs.com/package/axios)
 - [Serverless Functions](https://vercel.com/docs/serverless-functions/introduction)
-- [CSS Modules Stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/)
+- [CSS Modules Stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) 
 - Para mais detalhes, veja o <kbd>[package.json](./package.json)</kbd>
 
 ## :clipboard: Funcionalidades
@@ -117,7 +115,7 @@ http://localhost:3000
 ## :man: Desenvolvedor
 
 <a href="https://github.com/Igor-Gregori">
- <img class="rounded-2" src="https://avatars.githubusercontent.com/u/60407257?v=4" width="80px;" alt="Igor Gregori" style="border-radius:50%"/>
+ <img src="https://avatars.githubusercontent.com/u/60407257?v=4" width="80px;" alt="Igor Gregori" style="border-radius:50%"/>
  <br />
  <sub><b>Igor Gregori</b></sub>
 </a>
