@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img width="450px" src="./.github/images/logoMoveit.svg" />
+  <img width="450px" src="./.github/images/logoMoveit.png" />
   <br />
   <p align="center">
      <a href="https://moveit-igor-gregori.vercel.app/">https://moveit-igor-gregori.vercel.app/</a>
@@ -26,23 +26,23 @@
 </h1>
 
 <p align="center">
-  <a href="#page_facing_up-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
-  <a href="#art-Layout">Layout</a>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
-  <a href="#clipboard-Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
-  <a href="#closed_book-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
-  <a href="#man-Autor">Autor</a>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
+  <a href="#page_facing_up-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#art-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#clipboard-Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#closed_book-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#man-Autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-Licença">Licença</a>
 </p>
 
 <p align="center">
-  <img alt="Login" src="./.github/images/pageLogin.png" width="720px" />
-  <img alt="Painel" src="./.github/images/pagePanel.png" width="320px" />
-  <img alt="Countdown" src="./.github/images/pagePanelCountDown.png" width="320px" />
-  <img alt="Challenge" src="./.github/images/pagePanelChallenge.png" width="320px" />
-  <img alt="With Experience" src="./.github/images/pagePanelWithExperience.png" width="320px" />
-  <img alt="Next Level" src="./.github/images/pagePanelNextLevel.png" width="320px" />
-  <img alt="Ranking" src="./.github/images/pagePanelLeaderBoard.png" width="320px" />
+  <img class="rounded-1" alt="Login" src="./.github/images/pageLogin.png" width="720px" />
+  <img class="rounded-1" alt="Painel" src="./.github/images/pagePanel.png" width="357px" />
+  <img class="rounded-1" alt="Countdown" src="./.github/images/pagePanelCountDown.png" width="357px" />
+  <img class="rounded-1" alt="Challenge" src="./.github/images/pagePanelChallenge.png" width="357px" />
+  <img class="rounded-1" alt="With Experience" src="./.github/images/pagePanelWithExperience.png" width="357px" />
+  <img class="rounded-1" alt="Next Level" src="./.github/images/pagePanelNextLevel.png" width="357px" />
+  <img class="rounded-1" alt="Ranking" src="./.github/images/pagePanelLeaderBoard.png" width="357px" />
 </p>
 
 ## :page_facing_up: Descrição
@@ -64,7 +64,8 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 - [Firebase](https://firebase.google.com/docs?hl=pt-br)
 - [Axios](https://www.npmjs.com/package/axios)
 - [Serverless Functions](https://vercel.com/docs/serverless-functions/introduction)
-- [CSS Modules Stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) \* Para mais detalhes, veja o <kbd>[package.json](./package.json)</kbd>
+- [CSS Modules Stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) 
+- Para mais detalhes, veja o <kbd>[package.json](./package.json)</kbd>
 
 ## :clipboard: Funcionalidades
 
@@ -114,12 +115,12 @@ http://localhost:3000
 ## :man: Desenvolvedor
 
 <a href="https://github.com/Igor-Gregori">
- <img src="https://avatars.githubusercontent.com/u/60407257?v=4" width="80px;" alt="Igor Gregori" style="border-radius:50%"/>
+ <img class="rounded-2" src="https://avatars.githubusercontent.com/u/60407257?v=4" width="80px;" alt="Igor Gregori" style="border-radius:50%"/>
  <br />
  <sub><b>Igor Gregori</b></sub>
 </a>
 
-Desenvolvido por Igor Gregori :satisfied::+1: Entre em contato!:speech_balloon:
+Desenvolvido por <b>Igor Gregori</b> :metal::satisfied::+1: Entre em contato! :speech_balloon:
 
 <a href="https://www.linkedin.com/in/igor-gregori-362a1b20a/">
   <img alt="Linkedin" src="https://img.shields.io/badge/-Igor%20Gregori-0e76a8?label=Linkedin&logo=linkedin&style=flat-square" >
