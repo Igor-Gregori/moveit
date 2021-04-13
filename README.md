@@ -30,13 +30,15 @@
   <a href="#art-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#clipboard-Funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#closed_book-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#man-Autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-Licença">Licença</a>
+  <a href="#computer-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#man-Desenvolvedor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#closed_book-Licença MIT">Licença</a>
 </p>
 
 <p align="center">
-  <img class="rounded-1" alt="Login" src="./.github/images/pageLogin.png" width="720px" />
+  <div class="rounded-1">
+     <img alt="Login" src="./.github/images/pageLogin.png" width="720px" />
+  </div>
   <img class="rounded-1" alt="Painel" src="./.github/images/pagePanel.png" width="357px" />
   <img class="rounded-1" alt="Countdown" src="./.github/images/pagePanelCountDown.png" width="357px" />
   <img class="rounded-1" alt="Challenge" src="./.github/images/pagePanelChallenge.png" width="357px" />
@@ -64,7 +66,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 - [Firebase](https://firebase.google.com/docs?hl=pt-br)
 - [Axios](https://www.npmjs.com/package/axios)
 - [Serverless Functions](https://vercel.com/docs/serverless-functions/introduction)
-- [CSS Modules Stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/) 
+- [CSS Modules Stylesheet](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/)
 - Para mais detalhes, veja o <kbd>[package.json](./package.json)</kbd>
 
 ## :clipboard: Funcionalidades
