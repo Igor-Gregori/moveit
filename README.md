@@ -5,7 +5,7 @@
      <a href="https://moveit-igor-gregori.vercel.app/">https://moveit-igor-gregori.vercel.app/</a>
   <p/>
   <br />
-  <a href="https://www.linkedin.com/in/igor-gregori-362a1b20a/">
+  <a href="https://www.linkedin.com/in/igor-gregori/">
     <img alt="Linkedin" src="https://img.shields.io/badge/-Igor%20Gregori-0e76a8?label=Linkedin&logo=linkedin&style=flat-square"/>
   </a>
   <a href="https://github.com/Igor-Gregori/moveit/blob/main/LICENSE">
@@ -122,7 +122,7 @@ http://localhost:3000
 
 Desenvolvido por <b>Igor Gregori</b> :metal::satisfied::+1: Entre em contato! :speech_balloon:
 
-<a href="https://www.linkedin.com/in/igor-gregori-362a1b20a/">
+<a href="https://www.linkedin.com/in/igor-gregori/">
   <img alt="Linkedin" src="https://img.shields.io/badge/-Igor%20Gregori-0e76a8?label=Linkedin&logo=linkedin&style=flat-square" >
 </a>
 
